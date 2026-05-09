@@ -1,0 +1,80 @@
+section {
+  display: grid;
+  grid-template: "robotica hologramas internet" "robotica vestiveis realidade-virtual";
+  justify-content: space-between;
+  gap: 16px;
+  margin: 32px;
+}
+
+.destaques-robotica {
+  grid-area: robotica;
+  width: 608px;
+  height: 416px;
+}
+
+.destaques-robotica > img {
+  width: 608px;
+  height: 416px;
+  position: absolute;
+  border-radius: 4px;
+}
+
+.destaques-robotica > div {
+  position: relative;
+  margin: 268px 24px 24px 24px;
+}
+
+span {
+  margin-bottom: 8px;
+  display: inline-block;
+  text-transform: uppercase;
+  background-color: var(--brand-color-dark);
+  padding: 4px 8px;
+  border-radius: 4px;
+  font: 500 10px var(--font-family);
+}
+
+div > h1 {
+  font: var(--text-xxl);
+}
+
+.destaques {
+  width: 288px;
+  height: 200px;
+}
+
+.destaques > img {
+  position: absolute;
+  width: 288px;
+  height: 200px;
+  border-radius: 4px;
+
+}
+
+.destaques > div {
+  position: relative;
+  margin: 100px 12px 12px 12px;
+}
+
+.destaque-hologramas {
+  grid-area: hologramas;
+}
+
+
+.destaque-hologramas > p {
+  font: var(--text-l);
+}
+
+.destaque-internet {
+  grid-area: internet;
+}
+
+
+.destaque-vestiveis {
+  grid-area: vestiveis;
+}
+
+
+.destaque-realidade-virtual {
+  grid-area: realidade-virtual;
+}

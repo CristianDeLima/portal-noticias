@@ -1,3 +1,9 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
 :root {
   --brand-color-light: #60A5FA;
   --brand-color-dark: ;

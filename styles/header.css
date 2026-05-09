@@ -12,11 +12,14 @@ header > img {
 
 header > div {
   display: flex;
-  align-items: center;
 }
 
 header > div > p {
   margin: 0px 8px;
+}
+
+header > div > p:hover {
+  color: var(--brand-color-light);
 }
 
 header > div > img {

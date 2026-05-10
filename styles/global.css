@@ -26,3 +26,17 @@ body {
   color: var(--text-color-primary);
   background-color: var(--bg-color);
 }
+
+span {
+  margin-bottom: 8px;
+  display: inline-block;
+  text-transform: uppercase;
+  background-color: var(--brand-color-dark);
+  padding: 4px 8px;
+  border-radius: 4px;
+  font: 500 10px var(--font-family);
+}
+
+div > h1 {
+  font: var(--text-xxl);
+}

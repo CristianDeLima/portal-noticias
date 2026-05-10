@@ -1,0 +1,134 @@
+#destaques-geral {
+  display: grid;
+  grid-template: "robotica hologramas internet" "robotica vestiveis realidade-virtual";
+  justify-content: space-between;
+  gap: 16px;
+  margin: 40px 32px 80px 32px;
+
+  &>.destaques-robotica {
+    height: 416px;
+    grid-area: robotica;
+    width: 608px;
+  }
+
+  &> .destaques-robotica > img {
+    width: 608px;
+    height: 416px;
+    position: absolute;
+    border-radius: 4px;
+  }
+
+  &>.destaques-robotica > div {
+    position: relative;
+    margin: 268px 24px 24px 24px;
+  }
+  
+  &>.destaques > img {
+    position: absolute;
+    width: 288px;
+    height: 200px;
+    border-radius: 4px;
+  }
+  
+  &>.destaques > div {
+    position: relative;
+    margin: 100px 12px 12px 12px;
+  }
+  
+  &>.destaque-hologramas {
+    grid-area: hologramas;
+  }
+  
+  
+  &>.destaque-hologramas > p {
+    font: var(--text-l);
+  }
+  
+  &>.destaque-internet {
+    grid-area: internet;
+  }
+  
+  
+  &>.destaque-vestiveis {
+    grid-area: vestiveis;
+  }
+  
+  
+  &>.destaque-realidade-virtual {
+    grid-area: realidade-virtual;
+  }
+}
+
+#week {
+  &>.busca {
+    display: flex;
+    margin: 0px 32px;
+    justify-content: space-between;
+    border-top: solid 1px var(--stroke-color);
+    padding-top: 24px;
+    padding-bottom: 12px;
+    font: var(--text-span);
+    color: var(--text-color-secondary);
+  }
+  
+  &>.busca > div {
+    display: flex;
+    align-items: center;
+  }
+  
+  &>.busca > div > img {
+    margin-left: 4px;
+  }
+  
+  &>.mais-visitados {
+    display: flex;
+    margin: 24px 32px 0px 32px;
+    gap: 16px;
+  }
+  
+  &>.mais-visitados > div > div {
+    width: 292px;
+    height: 160px;
+  }
+  
+  &>.mais-visitados > div > div > img {
+    width: 292px;
+    height: 160px;
+    position: absolute;
+  }
+  
+  &>.mais-visitados > div > div > span {
+    position: relative;
+    margin: 8px;
+  }
+  
+  &>.mais-visitados > div > p {
+    margin-top: 8px;
+    font: var(--text-xl);
+    width: 292px;
+    height: 66px;
+  }
+}
+
+#ai {
+  &>.cabecalho {
+    border-top: solid 1px var(--stroke-color);
+    width: 696px;
+    margin-top: 104px;
+    margin-left: 32px;
+    font: var(--text-l);
+    color: var(--text-color-secondary);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &>div {
+      display: flex;
+      align-items: center;
+      margin-top: 12px;
+      &>a {
+        margin-right: 4px;
+      }
+    }
+  }
+}

@@ -1,4 +1,4 @@
-header {
+#cabecalho-pagina {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -6,23 +6,23 @@ header {
   font: var(--text-xl);
 }
 
-header > img {
+#cabecalho-pagina > img {
   margin: 20px 0px;
 }
 
-header > div {
+#cabecalho-pagina > div {
   display: flex;
 }
 
-header > div > p {
+#cabecalho-pagina > div > p {
   margin: 0px 8px;
 }
 
-header > div > p:hover {
+#cabecalho-pagina > div > p:hover {
   color: var(--brand-color-light);
 }
 
-header > div > img {
+#cabecalho-pagina > div > img {
   width: 20px;
   height: 20px;
 }

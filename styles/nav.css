@@ -1,4 +1,4 @@
-nav {
+#navegacao-pagina {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -6,12 +6,12 @@ nav {
   border-bottom: solid 1px var(--stroke-color);
 }
 
-nav > a {
+#navegacao-pagina > a {
   text-decoration: none;
   color: var(--text-color-secondary);
   margin: 14px 32px;
 }
 
-nav > a:hover {
+#navegacao-pagina > a:hover {
   color: var(--brand-color-light);
 }

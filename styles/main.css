@@ -2,6 +2,7 @@ main {
   display: grid;
   grid-template-areas: "ai ads" "ai curiosidades";
   margin-inline: 32px;
+  padding-bottom: 80px;
 }
 
 #ai {

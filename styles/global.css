@@ -26,6 +26,7 @@ body {
   font: var(--text-l);
   color: var(--text-color-primary);
   background-color: var(--bg-color);
+  margin-inline: auto;
 }
 
 span {

@@ -1,4 +1,4 @@
-section {
+main {
   display: grid;
   grid-template: "robotica hologramas internet" "robotica vestiveis realidade-virtual";
   justify-content: space-between;

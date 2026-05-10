@@ -60,15 +60,24 @@
 }
 
 #week {
+  margin-bottom: 80px;
   &>.busca {
-    display: flex;
-    margin: 0px 32px;
-    justify-content: space-between;
     border-top: solid 1px var(--stroke-color);
     padding-top: 24px;
-    padding-bottom: 12px;
-    font: var(--text-span);
+    margin: 0px 32px;
+    display: flex;
+    justify-content: space-between;
     color: var(--text-color-secondary);
+    font: var(--text-span);
+    &>div {
+      &>a {
+        text-decoration: none;
+        color: var(--text-color-secondary);
+      }
+      &>a:hover {
+        color: var(--brand-color-light);
+      }
+    }
   }
   
   &>.busca > div {
@@ -82,8 +91,8 @@
   
   &>.mais-visitados {
     display: flex;
-    margin: 24px 32px 0px 32px;
     gap: 16px;
+    margin: 24px 32px;
   }
   
   &>.mais-visitados > div > div {
@@ -108,54 +117,4 @@
     width: 292px;
     height: 66px;
   }
-}
-
-#ai {
-  display: flex;
-  flex-direction: column;
-
-  &>.cabecalho {
-    border-top: solid 1px var(--stroke-color);
-    width: 696px;
-    margin-top: 104px;
-    margin-left: 32px;
-    margin-bottom: 24px;
-    font: var(--text-l);
-    color: var(--text-color-secondary);
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-
-    &>div {
-      display: flex;
-      align-items: center;
-      margin-top: 12px;
-      &>a {
-        margin-right: 4px;
-      }
-    }
-  }
-
-  &>div {
-    display: flex;
-    width: 696px;
-    margin-left: 32px;
-    &> div {
-      &>h2 {
-        font: var(--text-xl);
-      }
-
-      &>p {
-        font: 400 14px/160% var(--font-family);
-        color: var(--text-color-secondary);
-        margin-top: 4px;
-      }
-      &> img {
-        width: 176px;
-        height: 176px;
-        margin-left: 16px;
-      }
-    }
-  }
-
 }

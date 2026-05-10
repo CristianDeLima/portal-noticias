@@ -1,0 +1,111 @@
+main {
+  display: grid;
+  grid-template-areas: "ai ads" "ai curiosidades";
+  margin-inline: 32px;
+}
+
+#ai {
+  grid-area: ai;
+  width: 696px;
+  height: 856px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  &>header{
+    padding-bottom: 24px;
+    padding-top: 12px;
+
+    &>.ver-mais {
+      &>a {
+        text-decoration: none;
+        color: var(--text-color-secondary);
+      }
+
+      &>a:hover {
+        color: var(--brand-color-light);
+      }
+    }
+  }
+
+  &>.ai-div-posicao {
+    display: flex;
+    align-items: center;
+    &>div {
+      &>h2 {
+        font: var(--text-xl);
+      }
+      
+      &>p {
+        font: 400 14px/160% var(--font-family);
+        color: var(--text-color-secondary);
+        margin-top: 4px;
+      }
+    }
+    &> img {
+      width: 176px;
+      height: 176px;
+    }
+  }
+}
+
+#ads {
+  width: 488px;
+  height: 280px;
+  margin-inline: 32px;
+  &>img {
+    width: 488px;
+    height: 280px;
+  }
+}
+
+#curiosidades {
+  height: 544px;
+  margin-top: 32px;
+  margin-inline: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  &>.mini-cabecalho {
+    border-top: solid 1px var(--stroke-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 12px;
+    margin-bottom: 24px;
+    &>p {
+      color: var(--text-color-secondary);
+    }
+    
+    &>div {
+      display: flex;
+      align-items: center;
+      color: var(--text-color-secondary);
+
+      &>a {
+        margin-right: 4px;
+        text-decoration: none;
+        color: inherit;
+      }
+      &>a:hover {
+        color: var(--brand-color-light);
+      }
+    }
+  }
+
+  &>.curiosidades-gerais {
+    display: flex;
+
+    &>img {
+      width: 72px;
+      height: 72px;
+      margin-right: 15px;
+    }
+
+    &>div {
+      &>h3 {
+        font: 800 14px/140% var(--font-family);
+      }
+    }
+
+  }
+}

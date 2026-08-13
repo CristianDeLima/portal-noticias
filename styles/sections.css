@@ -118,3 +118,39 @@
     height: 66px;
   }
 }
+
+@media (width < 80em) {
+  #destaques-geral {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    margin: 1rem;
+
+    & .destaques-robotica {
+      width: 328px;
+      height: 416px;
+
+      & img {
+        width: 328px;
+        object-fit: cover;
+        object-position: center;
+      }
+
+      & .destaques-texto h1 {
+        overflow: auto;
+        height: 96px;
+      }
+    }
+
+    & .destaques {
+      width: 328px;
+
+      & img {
+        width: 328px;
+        object-fit: cover;
+        object-position: center;
+      }
+    }
+  }
+}

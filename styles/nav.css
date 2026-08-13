@@ -10,6 +10,7 @@
 #navegacao-pagina > a {
   text-decoration: none;
   color: var(--text-color-secondary);
+  font: var(--text-span);
 }
 
 #navegacao-pagina > a:hover {

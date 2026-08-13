@@ -4,14 +4,27 @@
   justify-content: space-between;
   border-top: solid 1px var(--stroke-color);
   border-bottom: solid 1px var(--stroke-color);
+  padding: .875rem 2rem;
 }
 
 #navegacao-pagina > a {
   text-decoration: none;
   color: var(--text-color-secondary);
-  margin: 14px 32px;
 }
 
 #navegacao-pagina > a:hover {
   color: var(--brand-color-light);
+}
+
+@media (width < 80em) {
+  #navegacao-pagina {
+    margin-inline: 1rem;
+    padding: .875rem 1rem;
+    gap: 2rem;
+    overflow: auto;
+
+    & a {
+      white-space: nowrap;
+    }
+  }
 }

@@ -153,4 +153,28 @@
       }
     }
   }
+
+  #week {
+
+    & .busca {
+      margin: 1rem;
+    }
+
+    & .mais-visitados {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+        
+      margin: 2rem 1rem;
+      width: 328px;
+      gap: 2rem;
+
+      & div {
+        width: 328px;
+        & div img {
+          width: 328px;
+        }
+      }
+    }
+  }
 }

@@ -60,3 +60,13 @@ div > h1 {
     }
   }
 }
+
+@media (width < 80em) {
+  body {
+    width: 360px;
+  }
+
+  .desktop-only {
+    display: none;
+  }
+}

@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 0px 32px;
+  margin-inline: 32px;
   font: var(--text-xl);
 }
 
@@ -25,4 +25,15 @@
 #cabecalho-pagina > div > img {
   width: 20px;
   height: 20px;
+}
+
+@media (width < 80em) {
+  #cabecalho-pagina {
+    margin-inline: 1rem;
+
+    & img {
+      width: 100px;
+      height: 20px;
+    }
+  }
 }

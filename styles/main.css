@@ -160,4 +160,13 @@ main {
       }
     }
   }
+
+  #ads {
+    margin-inline: 0px;
+    height: 188.58px;
+    & img {
+      width: 328px;
+      height: 188.58px;
+    }
+  }
 }

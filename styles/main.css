@@ -42,7 +42,7 @@ main {
         margin-top: 4px;
       }
     }
-    &> img {
+    & img {
       width: 176px;
       height: 176px;
       margin-left: 16px;
@@ -67,6 +67,7 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+
   &>.mini-cabecalho {
     border-top: solid 1px var(--stroke-color);
     display: flex;
@@ -109,5 +110,54 @@ main {
       }
     }
 
+  }
+}
+
+@media (width < 80em) {
+  main {
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    width: 360px;
+    margin-inline: 1rem;
+  }
+  .cabecalho {
+    width: 328px;
+  }
+
+  #ai .ai-div-posicao {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: start;
+    width: 328px;
+    height: 164px;
+    margin-bottom: 2rem;
+
+    & img {
+      width: 80px;
+      height: 80px;
+      margin-right: 1rem;
+    }
+    
+    & div {
+      width: 328px;
+      height: 164px;
+      
+      & h2 {
+        width: 232px;
+        height: 44px;
+        overflow: auto;
+        scrollbar-width: none;
+        margin-top: 8px;
+        margin-bottom: 4px;
+      }
+
+      & p {
+        width: 232px;
+        height: 88px;
+        overflow: auto;
+        scrollbar-width: none;
+      }
+    }
   }
 }

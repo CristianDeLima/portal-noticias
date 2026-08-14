@@ -172,8 +172,8 @@ main {
 
   #curiosidades {
     width: 328px;
-
     margin: 0px;
+    margin-top: 2rem;
     gap: 2rem;
 
     & .curiosidades-gerais {

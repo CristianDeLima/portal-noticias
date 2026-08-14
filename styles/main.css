@@ -169,4 +169,23 @@ main {
       height: 188.58px;
     }
   }
+
+  #curiosidades {
+    width: 328px;
+
+    margin: 0px;
+    gap: 2rem;
+
+    & .curiosidades-gerais {
+      height: 72px;
+
+      & div {
+
+        & h3 {
+          height: 40px;
+          overflow: auto;
+        }
+      }
+    }
+  }
 }

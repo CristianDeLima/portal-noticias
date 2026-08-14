@@ -139,6 +139,7 @@
 
       & .destaques-texto h1 {
         overflow: auto;
+        scrollbar-width: none;
         height: 96px;
       }
     }

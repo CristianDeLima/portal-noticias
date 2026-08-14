@@ -23,6 +23,7 @@
     padding: .875rem 1rem;
     gap: 2rem;
     overflow: auto;
+    scrollbar-width: none;
 
     & a {
       white-space: nowrap;
